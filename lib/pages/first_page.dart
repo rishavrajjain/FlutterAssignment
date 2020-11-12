@@ -1,4 +1,5 @@
 //import 'package:assignment/pages/video_player.dart';
+import 'package:assignment/pages/login.dart';
 import 'package:assignment/pages/youtubeVideoPlayer.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
@@ -70,6 +71,22 @@ class _FirstPageState extends State<FirstPage> {
                   child: Center(
                       child: Container(
                     child: Text('Using Youtube Player Flutter Package'),
+                  )),
+                ),
+              ),
+               Padding(
+                padding: const EdgeInsets.fromLTRB(45, 15, 45, 0),
+                child: RaisedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LoginScreen()),
+                    );
+                  },
+                  child: Center(
+                      child: Container(
+                    child: Text('Firebase Authentication'),
                   )),
                 ),
               ),
