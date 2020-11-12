@@ -1,4 +1,4 @@
-import 'package:assignment/pages/video_player.dart';
+//import 'package:assignment/pages/video_player.dart';
 import 'package:assignment/pages/youtubeVideoPlayer.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
@@ -40,22 +40,7 @@ class _FirstPageState extends State<FirstPage> {
                     fontSize: 22,
                     color: Colors.white),
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(45, 40, 45, 0),
-                child: RaisedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => VideoHomePage(widget.cameras)),
-                    );
-                  },
-                  child: Center(
-                      child: Container(
-                    child: Text('Using only Video Player Package'),
-                  )),
-                ),
-              ),
+              
                Padding(
                 padding: const EdgeInsets.fromLTRB(45, 15, 45, 0),
                 child: RaisedButton(
