@@ -1,10 +1,10 @@
 # Flutter assignment
 This is a simple Flutter app to play a video in fullscreen with a slider bar to control the volume.
 It has two implementations using different packages:
-a) Chewie + Video Player Package
-b) Youtube Player FLutter Package
+## a) Chewie + Video Player Package
+## b) Youtube Player FLutter Package
 It also has a button to test firebase authentication
-c) Firebase Authentication
+## c) Firebase Authentication
 
 
 
