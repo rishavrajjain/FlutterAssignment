@@ -1,4 +1,9 @@
 # Flutter assignment
+![WhatsApp Image 2020-11-12 at 7 21 07 PM (3)](https://user-images.githubusercontent.com/29782913/98948614-ac012400-251c-11eb-9c3a-701121af6937.jpeg)
+![WhatsApp Image 2020-11-12 at 7 21 07 PM (1)](https://user-images.githubusercontent.com/29782913/98948599-a73c7000-251c-11eb-8359-402c6eab79f8.jpeg)
+![WhatsApp Image 2020-11-12 at 7 21 07 PM (2)](https://user-images.githubusercontent.com/29782913/98948611-ab688d80-251c-11eb-8a30-6dda0a55aa07.jpeg)
+![WhatsApp Image 2020-11-12 at 7 21 07 PM](https://user-images.githubusercontent.com/29782913/98948616-ac99ba80-251c-11eb-99a0-3995922f10ee.jpeg)
+
 This is a simple Flutter app to play a video in fullscreen with a slider bar to control the volume.
 It has two implementations using different packages:
 ## a) Chewie + Video Player Package
